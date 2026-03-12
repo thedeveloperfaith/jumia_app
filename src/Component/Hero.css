@@ -1,0 +1,77 @@
+.hero_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.first_section{
+    width: 20%;
+    background: white;
+    border-radius: 6px;
+}
+
+.second_section{
+    width: 55%;
+    position: relative;
+}
+
+.second_section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.second_section button{
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    border:none;
+    background:white;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+.second_section button:first-child{
+    left:10px;
+}
+
+.second_section button:last-child{
+    right:10px;
+}
+
+.third_section{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.jumia_items{
+    list-style:none;
+    padding:10px;
+}
+
+.jumia_items li{
+    padding:10px;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.jumia_items li:hover{
+    background: lightgray;
+}
+
+.section_one{
+    background:white;
+    border-radius:6px;
+    padding:10px;
+}
+
+.section_two img{
+    width:100%;
+    border-radius:6px;
+}

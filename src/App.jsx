@@ -1,11 +1,16 @@
-import { useState } from 'react'
+import Header from "./Component/Header" 
+import Header2 from "./Component/Header2"
+import Hero from "./Component/Hero"
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+    <Header/>
+    <Header2/>
+    <Hero/>
      
     </>
   )
